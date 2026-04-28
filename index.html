@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Start n8n</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <h1>Start n8n</h1>
+
+      <p class="description">
+        Click the button below to start an n8n container using GitHub Actions.
+      </p>
+
+      <button id="startButton" class="button">
+        Start n8n
+      </button>
+
+      <div id="loader" class="loader hidden" aria-hidden="true"></div>
+
+      <p id="statusMessage" class="status" role="status"></p>
+
+      <details class="token-help">
+        <summary>GitHub token help</summary>
+        <p>
+          This static page needs a GitHub token to trigger the workflow.
+          Use a fine-grained personal access token with access to this repository
+          and permission to run GitHub Actions.
+        </p>
+      </details>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
