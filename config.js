@@ -1,7 +1,7 @@
 window.APP_CONFIG = {
   githubOwner: "Leonb830",
   githubRepo: "n8nActions",
-  githubBranch: "main",
+  githubBranch: "pages_test",
   workflowFileName: "start-n8n.yml",
 
   // How often the page checks whether the workflow has published the n8n URL.
