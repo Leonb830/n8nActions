@@ -1,6 +1,6 @@
 {
-  "status": "stopped",
-  "url": null,
-  "created_at": "2026-04-29T06:14:44Z",
-  "expires_at": null
+  "status": "running",
+  "url": "https://decorative-habitat-marshall-durable.trycloudflare.com",
+  "created_at": "2026-04-29T06:17:59Z",
+  "expires_at": "2026-04-29T07:12:59Z"
 }
